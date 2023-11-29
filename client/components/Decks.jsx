@@ -5,12 +5,15 @@ const Decks = () => {
   // State being used for the decks rendering on the Decks page
   const [decks, setDecks] = useState([]);
 
+  const [questions, setQuestions] = useState([])
+
   // HANDLER FOR SPECIFIC DECK ID
   // 
   const handleDeckClick = (deckNumber) => {
     fetch(`/api/deck/${deckNumber}`)
       .then((response) => response.json())
-      .then((data) => console.log(data))
+      .then((data) => {
+      setQuestions(data)})
       .catch((error) => console.error("Error fetching deck:", error));
   };
 
