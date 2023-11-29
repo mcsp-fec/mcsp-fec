@@ -61,7 +61,7 @@ const App = () => {
   useEffect(() => {
     fetchDecks();
   }, []);
-  // console.log(decks);
+  console.log(decks);
 
   const handleContentChange = (content) => {
     // Content based on the button click
