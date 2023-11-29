@@ -1,0 +1,10 @@
+.deck-box {
+    margin: 0.625em;
+    cursor: pointer;
+    width: 18em;
+    height: 8em;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border-radius: 15px;
+  }
