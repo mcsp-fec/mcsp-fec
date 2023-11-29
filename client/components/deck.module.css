@@ -1,8 +1,9 @@
 .deck-box {
     margin: 0.625em;
     cursor: pointer;
-    width: 18em;
-    height: 8em;
+    width: 25%;
+    height: 12.5%;
+    font-family: monospace;
     color: black;
     background-color: white;
     display: inline-block;
