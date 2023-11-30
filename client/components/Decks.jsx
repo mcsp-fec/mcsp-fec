@@ -2,18 +2,18 @@ import React, { useEffect, useState } from "react";
 import styles from "./deck.module.css";
 import Question from "./Question";
 
-const Decks = () => {
-  // State being used for the decks rendering on the Decks page
+const Decks = ({ setSelectedDeck }) => {
   const [decks, setDecks] = useState([]);
-  const [selectedDeck, setSelectedDeck] = useState([]);
+  const [selectedDeck, setSelectedDeckState] = useState(null);
   const [questions, setQuestions] = useState([]);
 
   const handleDeckClick = (deckNumber) => {
     fetch(`/api/deck/${deckNumber}`)
       .then((response) => response.json())
       .then((data) => {
-        setQuestions("Fetched deck data:", data);
-        setSelectedDeck(data);
+        console.log("Fetched deck data:", data);
+        setQuestions(data.flashcards);
+        setSelectedDeckState(data);
       })
       .catch((error) => console.error("Error fetching deck:", error));
   };
@@ -48,17 +48,11 @@ const Decks = () => {
     ));
   }
 
-  /*
-  {selectedDeck ? (
-          <Question flashcards={selectedDeck.flashcards} />
-        ) : (
-          renderDeckBoxes()
-        )}
-  */
-
   return (
     <div style={containerStyle}>
-      <main>{renderDeckBoxes()}</main>
+      <main>
+        {selectedDeck ? <Question flashcards={questions} /> : renderDeckBoxes()}
+      </main>
     </div>
   );
 };
