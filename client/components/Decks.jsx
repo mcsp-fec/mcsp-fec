@@ -6,11 +6,14 @@ const Decks = () => {
   // State being used for the decks rendering on the Decks page
   const [decks, setDecks] = useState([]);
   const [questions, setQuestions] = useState([])
+  // State to update the percentages displayed on decks. 
   const [deckPercentages, setDeckPercentages] = useState({})
 
 
   // -------------------------------- This code block will be for localStorage -----------------------------------------
     
+  // Create the local storage code.
+
   useEffect(() => {
     // Retrieve the list of decks from our established database.
     fetch("/api/decks")
@@ -39,6 +42,8 @@ const Decks = () => {
       })
       .catch((error) => console.error("You goof'd again, MITCHELL!:", error));
   }, []);
+
+  // Create the State update alongside event listener. 
 
   // Function to update the State of deck percentage
   const updateDeckPercentage = (deckId, count) => {
