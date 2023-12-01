@@ -11,13 +11,17 @@ const Card = ({ deckArr }) => {
     if (cardIndex < deckCount - 1) {
       setCardIndex(cardIndex + 1);
       setRevealAnswer(false);
+    } else {
+      //{What should we do if it is the last card in the deckArr, maybe have a "You have completed this Flashcard Deck."}
     }
   };
 
   return (
-    <div className={styles.card}>
-      <p>{deckArr[cardIndex].question}</p>
-      {revealAnswer && <p>{deckArr[cardIndex].answer}</p>}
+    <div>
+      <div className={styles.card}>
+        <p>{deckArr[cardIndex].question}</p>
+        {revealAnswer && <p>{deckArr[cardIndex].answer}</p>}
+      </div>
       {!revealAnswer && (
         <button
           className={styles["answer-button"]}
