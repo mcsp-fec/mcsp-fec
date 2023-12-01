@@ -26,7 +26,7 @@ const Decks = () => {
           }
         });
 
-        // Set an initial values based on local storage, iterate through the fetch request, validate existingData, and update percentages accordingly
+        // Set initial values based on local storage, iterate through the fetch request, validate existingData, and update percentages accordingly
         const initialDeckValues = {};
         decksData.forEach((deck) => {
           const localStorageKey = `deck${deck.id}`
