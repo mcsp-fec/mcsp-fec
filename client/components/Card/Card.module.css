@@ -14,7 +14,8 @@
   font-size: 32pt;
   border-radius: 1em;
 }
-.answer-button {
+.answer-button,
+.next-card-button {
   display: flex;
   justify-content: center;
   margin-left: 40%;

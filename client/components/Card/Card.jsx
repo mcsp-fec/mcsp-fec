@@ -18,12 +18,14 @@ const Card = ({ deckArr }) => {
     <div className={styles.card}>
       <p>{deckArr[cardIndex].question}</p>
       {revealAnswer && <p>{deckArr[cardIndex].answer}</p>}
-      <button
-        className={styles["answer-button"]}
-        onClick={() => setRevealAnswer(true)}
-      >
-        REVEAL ANSWER
-      </button>
+      {!revealAnswer && (
+        <button
+          className={styles["answer-button"]}
+          onClick={() => setRevealAnswer(true)}
+        >
+          REVEAL ANSWER
+        </button>
+      )}
       {revealAnswer && (
         <button className={styles["next-card-button"]} onClick={handleClick}>
           NEXT QUESTION
