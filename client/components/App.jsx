@@ -9,7 +9,6 @@ const App = () => {
   const [currentView, setCurrentView] = useState("home");
   const [deckPercentages, setDeckPercentages] = useState({})
 
-
   // console.log('local storage from app', localStorage)
 
   let handleView = (view) => {
@@ -24,8 +23,6 @@ const App = () => {
       })
       .catch((error) => console.error("Error fetching:", error));
   };
-
-
 
 //TODO:// clean up? same fetch
 
@@ -60,10 +57,13 @@ const App = () => {
 
   const updateDeckPercentage = (deckID, count) => {
     // This line will update the state of deckPercentages using the previous state
+
+    console.log("*********************", count)
     setDeckPercentages((prevPercentages) => ({
       // I learned that we spread the previous state to make sure that we don't mutate it.
       ...prevPercentages,
       // Update the specific deckID with its new count value. 
+      
       [deckID]: count,
     }))
   }
@@ -73,6 +73,7 @@ const App = () => {
     const localStorageKey = `deck${deckID}`;
 
     const currentCount = parseInt(localStorage.getItem(localStorageKey) || 0)
+
     const updatedCount = currentCount + 1;
 
     localStorage.setItem(localStorageKey, updatedCount);
@@ -83,10 +84,7 @@ const App = () => {
 
 
   const handleWrongAnswer = (deckID) => {
-
-    const localStorageKey = `deck${deckID}`;
     updateDeckPercentage(deckID, 0);
-
   }
 
   

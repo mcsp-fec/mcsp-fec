@@ -1,4 +1,4 @@
-import About from "../About.jsx";
+import About from "../About/About.jsx";
 import Home from "../Home/Home.jsx";
 import Deck from "../Deck/Deck.jsx";
 import Card from "../Card/Card.jsx";
@@ -13,7 +13,7 @@ const MainContent = ({ currentView, decks, handleDeckClick, deckArr, handleView,
       case "home":
         return <Home />;
       case "decks":
-        return <Deck decks={decks} handleDeckClick={handleDeckClick} deckPercentages={deckPercentages} />;
+        return <Deck decks={decks} handleDeckClick={handleDeckClick} deckPercentages={deckPercentages} deckArr={deckArr}/>;
       case "card":
         return <Card deckArr={deckArr} handleView={handleView} handleCorrectAnswer={handleCorrectAnswer} handleWrongAnswer={handleWrongAnswer} />;
       default:

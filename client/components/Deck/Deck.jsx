@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Deck.module.css";
 
-const Deck = ({ decks, handleDeckClick, deckPercentages }) => {
+const Deck = ({ decks, decksArr, handleDeckClick, deckPercentages }) => {
 
   useEffect(() => {
-    console.log("deckPercentages")
   }, [deckPercentages]);
 
+console.log("decksssss", decks[0].length);
+console.log("decksssss Arr ", decksArr)
 
   useEffect(() => {
-    console.log("localstorage")
   }, [localStorage]);
 
   return (
