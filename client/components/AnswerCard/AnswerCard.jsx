@@ -23,3 +23,4 @@ let AnswerCard = ({ cardArr, cardIndex, handleCorrectClick, handleWrongClick }) 
 };
 
 export default AnswerCard;
+
