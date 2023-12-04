@@ -6,7 +6,6 @@ const Deck = ({ decks, handleDeckClick, deckPercentages }) => {
   useEffect(() => {
   }, [deckPercentages, localStorage]);
 
-console.log("decks from Deck", decks);
 
   return (
     <div className={styles["decks-container"]}>

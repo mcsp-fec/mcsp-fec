@@ -71,7 +71,6 @@ const App = () => {
       currentPercent > 99
         ? (currentPercent = 100)
         : (currentPercent = currentPercent);
-      console.log("hit last");
       localStorage.setItem(localStorageKey, Math.floor(currentPercent));
     } else {
       localStorage.setItem(localStorageKey, currentPercent);
