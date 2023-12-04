@@ -1,6 +1,5 @@
 .card-container {
   display: flex;
-  border: 1px solid white;
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -24,7 +23,6 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  border: 1px solid white;
   color: #fff;
 }
 
@@ -32,28 +30,23 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 40px;
-  z-index: 1;
 }
 
 .card-count {
-  /* margin-bottom: -2.5em; */
   font-size: 20px;
   display: flex;
   justify-content: flex-end;
-  border: 1px solid yellow;
   width: 100%;
 }
 
 .card-content-group {
   display: flex;
   height: 100%;
-  border: 1px solid green;
   font-size: 24px;
 }
 
 
 .card-designator {
-  border: 1px solid black;
   font-size: 96px;
   color: #0D0F4A;
   width: 1.2em;
@@ -61,19 +54,17 @@
 }
 
 .card-question {
-  border: 1px solid green;
   width: 90%;
-  height: 60%;
+  max-height: 60%;
   color: black;
   margin-top: auto;
   margin-bottom: auto;
 }
 
 .card-answer {
-  border: 1px solid green;
   font-weight: bolder;
   width: 90%;
-  height: 60%;
+  max-height: 60%;
   color: black;
   margin-top: auto;
   margin-bottom: auto;
@@ -83,7 +74,6 @@
 .response-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid green;
   margin-left: auto;
   margin-right: auto;
   min-width: 200px;

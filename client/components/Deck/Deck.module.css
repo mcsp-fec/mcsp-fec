@@ -1,44 +1,65 @@
 .decks-container {
   text-align: center;
-  font-size: 22px;
-  border: 2px solid white;
-  
+  font-size: 24px;
+  width: 90%;
+  margin: auto;
 }
 
 .deck {
-  margin: 1.2em;
+  margin: 25px;
   cursor: pointer;
-  min-width: 350px;
-  max-width: 350px;
-  min-height: 200px;
-  max-height: 200px;
+  width: 350px;
+  height: 200px;
   font-family: monospace;
-  color: #0d0f4a;
+  color: black;
   background-color: white;
   display: inline-block;
-  border-radius: 15px;
+  border-radius: .9375em;
   transition: .2s ease-in-out;
 }
 
 .deck-description {
-  margin-top: 8%;
 }
 
 .deck-percentage {
+  font-size: 20px;
+  color: #0D0F4A;
   width: 95%;
   display: flex;
   justify-content: flex-end;
-  color: #0D0F4A;
   transition: .2s ease-in-out;
 }
 
-
-.deck-box:hover {
+.deck:hover {
   background-color: #e07552;
   color: #fff;
 
-  .deck-percentage-correct{
+  .deck-percentage-correct {
     color: #fff
   }
 }
 
+
+
+/* 90% */
+@media screen and (max-width: 1600px) {
+
+}
+
+/* 80% */
+
+@media screen and (max-width: 1400px) {
+
+}
+
+/* 70% */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 60% */
+
+@media screen and (max-width: 1000px) {
+ 
+}
