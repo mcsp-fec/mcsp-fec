@@ -13,37 +13,7 @@ INSERT INTO decks(name,description) VALUES('OOP-Part_1','OOP-Part_1');--11
 INSERT INTO decks(name,description) VALUES('OOP-Part_2 ','OOP-Part_2');--12
 
 
-
-
-
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a JavaScript Statement','Answer',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Data Type in JavaScript','Answer',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a String in JavaScript','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a JavaScript Object','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a JavaScript Array','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Variable declaration','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Function','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Conditional Statement','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the Accumulator Pattern','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define JavaScript Expressions','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Iterating','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Loops','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Code Block','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Increment and Decrement','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Array Index','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Object Key','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Object Value','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Invoking a function','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Boolean','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Function arguments','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Function parameters','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Operators','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Comparison Operators','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Assignment Operators','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Logical Operators','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a return statement','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define console.log','ANSWER',1);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Concatenation','ANSWER',1);
+--Deck 1
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define a JavaScript Statement', 'A JavaScript statement is like a sentence in a programming language. It is a command or instruction that performs a specific action or operation.', 1);
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define a Data Type in JavaScript', 'In JavaScript, a data type defines the kind of value a variable can hold, like numbers, strings, or booleans.', 1);
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define a String in JavaScript', 'A string in JavaScript is like a string of characters in a book – it is a sequence of text, enclosed in single or double quotes.', 1);
@@ -79,21 +49,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Conca
 
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTML and what it can do','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTML Elements','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define  HTML Tags','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTML Attributes','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Head Tag','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Script Tag','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Body Tag','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the "a" Tag','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define CSS and what it can do','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define CSS Rules','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define CSS Selectors','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define CSS Properties','ANSWER',2);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define CSS Values','ANSWER',2);
-
-
+--Deck 2
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define HTML and what it can do', 'HTML, or HyperText Markup Language, is like the blueprint of a webpage. It structures content, defining headings, paragraphs, and more, enabling browsers to render and display information.', 2);
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define HTML Elements', 'HTML elements are like building blocks of a webpage. They consist of tags that encapsulate content, defining the structure and type of information displayed on a website.', 2);
@@ -121,26 +77,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define CSS P
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define CSS Values', 'CSS values are like setting preferences for styling. They define the specific measurements, colors, or other details within CSS properties, customizing the appearance of elements.', 2);
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Absolute Paths','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Relative Paths','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define what the command ls does','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What command flags are','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the terminal command "mkidr" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the terminal command "touch" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the terminal command "mv" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the terminal command "rm" does','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the terminal command "cd" does','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Github','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Git','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define CLI','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the Git CLI command "git status" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the Git CLI command "git clone" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the Git CLI command "git add" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the Git CLI command "git commit" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the Git CLI command "git push" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the Git CLI command "git fetch" does?','ANSWER',3);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define what a Github Fork is','ANSWER',3);
-
+--Deck 3
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Absolute Paths', 'Absolute paths in file systems are like GPS coordinates for your computer. They specify the exact location of a file or directory, starting from the root directory.', 3);
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Relative Paths', 'Relative paths in file systems are like giving directions based on your current location. They specify the location of a file or directory in relation to the current working directory.', 3);
@@ -180,17 +117,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define What 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define what a Github Fork is', 'Forking on GitHub is like making a copy of someone else`s project to experiment with changes. It creates a personal copy of a repository under your GitHub account, enabling collaboration and contributions without altering the original project.', 3);
 
 
-
-
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define what the DOM is used for','ANSWER',4);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Web browser Document','ANSWER',4);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define DOM Nodes','ANSWER',4);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Application Programming Interface','ANSWER',4);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define The DOM API','ANSWER',4);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define DOM Elements','ANSWER',4);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Browser Dev Tools','ANSWER',4);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define DOM Traversal','ANSWER',4);
-
+--Deck 4
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define what the DOM is used for', 'The DOM, or Document Object Model, is like a web architect`s blueprint. It represents the structure of a webpage, enabling dynamic interaction and manipulation of content through programming languages like JavaScript.', 4);
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Web browser Document', 'A web browser document is like a digital canvas. It is the visual representation of a webpage that users interact with, displaying content structured by HTML and styled by CSS.', 4);
@@ -208,14 +135,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Brows
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define DOM Traversal', 'DOM traversal is like exploring a maze of web elements. It involves navigating the DOM tree and moving between parent and child nodes to locate and manipulate specific elements with JavaScript.', 4);
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Event Listener','ANSWER',5);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Callback Functions','ANSWER',5);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Event Target','ANSWER',5);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define The JS Keyword "this"','ANSWER',5);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define  High Order Functions','ANSWER',5);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a Function Call','ANSWER',5);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Function Definition','ANSWER',5);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Anonymous Functions','ANSWER',5);
+--Deck 5
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Event Listener', 'In JavaScript, an event listener is like a waiter. It waits for a specific event, such as a button click, and then triggers a predefined action or function in response.', 5);
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Callback Functions', 'Callback functions in JavaScript are versatile helpers. They are functions passed as arguments to other functions, executing after a specific task completes or an event occurs.', 5);
@@ -235,12 +155,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Anony
 
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Asynchronous Code Execution','ANSWER',6);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the Call Stack','ANSWER',6);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the Event Loop Queue','ANSWER',6);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the Event Loop Heap','ANSWER',6);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define how JavaScript runs code using the Event Loop','ANSWER',6);
-
+--Deck 6
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Asynchronous Code Execution', 'Asynchronous code execution in JavaScript allows tasks to run independently. It is like cooking multiple dishes simultaneously; while one dish simmers, you can prepare others, improving overall efficiency.', 6);
 
@@ -253,15 +168,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define the E
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define how JavaScript runs code using the Event Loop', 'JavaScript uses the event loop to manage tasks efficiently. It is akin to a juggler maintaining a constant flow; the call stack, event loop queue, and heap work together to handle synchronous and asynchronous tasks.', 6);
 
 
-
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What a protocol is','ANSWER',7);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What HTTP is used for','ANSWER',7);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What an HTTP Method is','ANSWER',7);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the differences between a client and a server','ANSWER',7);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What the HTTP Request, Response Cycle is','ANSWER',7);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define why HTTP POST requests include a body','ANSWER',7);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What AJAX does?','ANSWER',7);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define What Web APIs are and how we use them in our code','ANSWER',7);
+--Deck 7
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define What a protocol is', 'A protocol is like a set of rules for communication. In web development, it defines how data is transmitted between devices or systems, ensuring a standardized and reliable exchange.', 7);
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define What HTTP is used for', 'HTTP (Hypertext Transfer Protocol) is the language of the web. It facilitates communication between clients and servers, enabling the retrieval and display of web content such as text, images, and videos.', 7);
@@ -282,32 +189,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define What 
 
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define NodeJS','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Software Libraries','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Runtime Environment','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Process Objects','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define NPM','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define module.exports','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define  "require(...)"','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define REPL','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Node Module','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Core Module','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define File Module','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define The File System(FS) Module','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Error First Callbacks','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTTP Servers','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Parts of a URL','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Node HTTP Modules','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Node Query string parameters','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Localhost','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Port Numbers','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTTP Headers','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTTP GET','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define  HTTP POST','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTTP Request Body','ANSWER',8);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTTP HTTP Status Code','ANSWER',8);
-
-
+--DECK 8
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define NodeJS', 'Node.js is a JavaScript runtime built on Chrome\'s V8 engine. It allows server-side execution of JavaScript, enabling developers to create scalable and efficient network applications.', 8);
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Software Libraries', 'Software libraries are reusable collections of code that provide pre-written functions and routines. They simplify development by offering ready-made solutions to common programming tasks, promoting code efficiency and consistency.', 8);
@@ -357,15 +239,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define HTTP 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define HTTP Status Coded', 'HTTP Status Codes are three-digit numbers returned by a server to indicate the status of an HTTP request. They provide information about the success, redirection, client error, or server error of the request.', 8);
 
 
-
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Let','ANSWER',9);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Const','ANSWER',9);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Variable Scope','ANSWER',9);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Spread Operator','ANSWER',9);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Rest Operator','ANSWER',9);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define  Arrow Functions','ANSWER',9);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Lexical Scope','ANSWER',9);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Destructuring Assignments','ANSWER',9);
+--Deck 9
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define "Let"', 'In JavaScript, "let" declares a block-scoped variable, allowing reassignment within the block. It provides flexibility while preventing accidental global scope pollution, enhancing code maintainability.', 9);
 
@@ -385,28 +259,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Destr
 
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define SQL','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define  Databases','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Data Persistence','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Relational Databases','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Postgres','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define ERD','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define an Entity','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Tables, Columns and Rows','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define SQL Query','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define SQL SELECT','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define SQL CREATE Table','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a 1 to 1 Relationship','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define a 1 to Many Relationship','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Primary Keys','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Foreign Key','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define RESTful Convention','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define HTTP Verbs','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define CRUD','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define ExpressJS','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Express Middleware','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Request Parameters','ANSWER',10);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define URL Query Strings','ANSWER',10);
+--Deck 10
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define SQL', 'SQL (Structured Query Language) is a domain-specific language used for managing and manipulating relational databases. It facilitates tasks like querying, updating, and modifying data, ensuring efficient data management.', 10);
 
@@ -453,15 +306,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Reque
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define URL Query Strings', 'URL query strings in web development are a way to pass data to the server as key-value pairs appended to the URL. They enable customization of requests and are commonly used in API endpoints and dynamic web pages.', 10);
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Objects in regard to OOP','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define State in regard to OOP','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Fields/Properties in regard to OOP','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Behavior','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Methods','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Encapsulation','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the Pillars of OOP','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Programming Paradigms','ANSWER',11);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Procedural Programming','ANSWER',11);
+--Deck 11
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Objects in regard to OOP', 'In OOP, objects are instances of classes, encapsulating data (fields/properties) and behavior (methods). They represent real-world entities and promote modular, reusable code.', 11);
 
@@ -482,25 +327,7 @@ INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Progr
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define Procedural Programming', 'Procedural programming is a programming paradigm where the code is organized into procedures or functions. It emphasizes step-by-step procedures and is less concerned with data abstraction and encapsulation.', 11);
 
 
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the "this" Keyword','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Factory Functions','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Constructor Functions','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Instances','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Information Hiding / Internal Implementation','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Mutate','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Getters','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Read-only access','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the "get" keyword','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Setters','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Interface','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Implementation','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Mutable vs. Immutable','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define ES6','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Inheritance','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define the JavaScript Keyword "extends"','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define Code Re-Use','ANSWER',12);
--- INSERT INTO flashcard(question,answer,deck_id) VALUES('Explain or define JavaScript Keyword "super"','ANSWER',12);
-
+--Deck 12
 
 INSERT INTO flashcard(question, answer, deck_id) VALUES('Explain or define the "this" Keyword', 'In JavaScript, "this" refers to the current execution context. It represents the object to which the current code belongs and is crucial in defining the scope of variables and functions.', 12);
 
