@@ -2,10 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./Deck.module.css";
 
 const Deck = ({ decks, handleDeckClick, deckPercentages }) => {
-
-  useEffect(() => {
-  }, [deckPercentages, localStorage]);
-
+  useEffect(() => {}, [deckPercentages, localStorage]);
 
   return (
     <div className={styles["decks-container"]}>
@@ -15,14 +12,14 @@ const Deck = ({ decks, handleDeckClick, deckPercentages }) => {
           className={styles["deck"]}
           onClick={() => handleDeckClick(deck.id)}
         >
-        <p className={styles["deck-percentage"]}> {deckPercentages[deck.id]}% </p>
+          <p className={styles["deck-percentage"]}>
+            {deckPercentages[deck.id]}%
+          </p>
           <p className={styles["deck-description"]}>{deck.description}</p>
         </div>
       ))}
-      
     </div>
   );
 };
-
 
 export default Deck;
