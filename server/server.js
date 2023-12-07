@@ -16,7 +16,7 @@ const app = express();
 
 app.get("/api/decks", (req, res) => {
   client
-    .query("SELECT * FROM decks")
+    .query("SELECT * FROM decks LIMIT 50")
     .then((rows) => {
       // const rows = result.rows;
       res.send(rows.rows);
@@ -30,7 +30,9 @@ app.get("/api/decks", (req, res) => {
 app.get("/api/deck/:id", (req, res) => {
   const deckId = Number.parseInt(req.params.id);
   client
-    .query(`Select * From flashcard WHERE flashcard.deck_id = $1`, [deckId])
+    .query(`Select * From flashcard WHERE flashcard.deck_id = $1 Limit 50`, [
+      deckId,
+    ])
     .then((data) => {
       if (data.rows.length == 0) {
         res.sendStatus(404);

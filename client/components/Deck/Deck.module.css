@@ -17,18 +17,17 @@
   cursor: pointer;
   margin: 1em;
   border-radius: 0.625em;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   font-size: 24px;
   margin: 1em;
 }
 
-
 .deck-percentage {
   display: flex;
   justify-content: flex-end;
-  transition: .2s ease-in-out;
-  color: #0D0F4A;
-  font-size: .9em;
+  transition: 0.2s ease-in-out;
+  color: #0d0f4a;
+  font-size: 0.9em;
   width: 95%;
 }
 
@@ -37,10 +36,9 @@
   color: #fff;
 
   .deck-percentage {
-    color: #fff
+    color: #fff;
   }
 }
-
 
 @media screen and (max-width: 1800px) {
   .deck {
@@ -57,7 +55,6 @@
 
 /* 90% */
 @media screen and (max-width: 1600px) {
-
   .deck {
     width: 13.122em;
     height: 7.497em;
@@ -68,7 +65,6 @@
   .deck-percentage {
     font-size: 0.81em;
   }
-
 }
 
 /* 85% */
@@ -83,7 +79,6 @@
   .deck-percentage {
     font-size: 0.765em;
   }
-
 }
 
 /* 80% */
@@ -99,7 +94,6 @@
   .deck-percentage {
     font-size: 0.72em;
   }
-
 }
 
 /* 75% */
@@ -115,5 +109,18 @@
   .deck-percentage {
     font-size: 0.675em;
   }
+}
 
+@media screen and (max-width: 1260px) {
+  .deck {
+    width: 9.6957em; /* 70% of 13.851em */
+    height: 5.53945em; /* 70% of 7.9135em */
+    margin: 0.665em; /* 70% of 0.95em */
+    font-size: 15.96px; /* 70% of 22.8px */
+    background-color: aqua;
+  }
+
+  .deck-percentage {
+    font-size: 0.5985em; /* 70% of 0.855em */
+  }
 }

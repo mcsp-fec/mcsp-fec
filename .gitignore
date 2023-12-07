@@ -1,3 +1,5 @@
 **/node_modules/
 **/.env
 /client/dist
+data.csv
+data2.csv
