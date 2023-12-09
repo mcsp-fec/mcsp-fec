@@ -118,8 +118,8 @@ const App = () => {
       <div id="main-content">
         <div className="content-container">
           <div className="galvanize-vocab-graphic">
-            <img className="galvanize-logo" src="galvanize-logo.svg" />
-            <img className="vocab-logo" src="vocab-logo.svg" />
+            <img className="galvanize-logo" src="galvanize-logo.svg" alt="galvanize logo" />
+            <img className="vocab-logo" src="vocab-logo.svg" alt="vocab logo"/>
           </div>
           <MainContent
             currentView={currentView}
