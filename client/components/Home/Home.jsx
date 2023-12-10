@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <div className={styles["home-container"]}>
-        <img className={styles["galvanize-guy-png"]} src="galvanize-dude.png" />
+        <img className={styles["galvanize-guy-png"]} src="galvanize-dude.png" alt="person studying"/>
 
         <div className={styles["home-text-container"]}>
           <div className={styles["home-title"]}>

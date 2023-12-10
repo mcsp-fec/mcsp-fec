@@ -25,6 +25,22 @@ This project is built using a range of modern web technologies:
 - File architecture
 - Local storage 
 
+<img src="client/public/figma-landing.png" width="60%" height="60%">
+<img src="client/public/figma-decks.png" width="60%" height="60%">
+<img src="client/public/figma-question.png" width="60%" height="60%">
+<img src="client/public/figma-answer.png" width="60%" height="60%">
+<img src="client/public/figma-percent.png" width="60%" height="60%">
+
+
+# Data Visualization
+![Alt text](client/public/LocalStorageDiagram.png)
+
+# Learning points
+- React hooks
+- CSS modules
+- File architecture
+- Local storage 
+
 # For Developers
 
 > **Note**: When you run `npm install` at the root, it will install all dependencies listed in `package.json`, `server/package.json`, and `client/package.json`.
